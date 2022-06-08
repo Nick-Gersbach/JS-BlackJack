@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: linear-gradient(rgba(20, 20, 20, 0.3), rgba(20, 20, 20, 0.3)),
+    url(./img/blackjack-table.png) no-repeat center center/cover;
+  height: 100vh;
+}
+
+h1 {
+  color: goldenrod;
+  text-align: center;
+  padding-top: 3.5rem;
+  font-size: 82px;
+}
+
+.game-content {
+  margin-top: 3.5rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.game-content h2 {
+  font-size: 42px;
+  padding-bottom: 2.5rem;
+  font-style: italic;
+}
+
+.game-content h3 {
+  font-size: 32px;
+  padding-bottom: 2.5rem;
+}
+
+#start-btn {
+  background: goldenrod;
+  color: darkgreen;
+  border: none;
+  font-weight: bold;
+  padding: 15px 30px;
+  font-size: 32px;
+  cursor: pointer;
+  border-radius: 3px;
+  width: 300px;
+  margin-bottom: 1rem;
+}
+
+#card-btn {
+  background: goldenrod;
+  color: darkgreen;
+  border: none;
+  font-weight: bold;
+  padding: 15px 30px;
+  font-size: 32px;
+  cursor: pointer;
+  border-radius: 3px;
+  width: 300px;
+}
+
+#player-el {
+  padding-top: 1.5rem;
+  font-size: 38px;
+  text-align: center;
+}
